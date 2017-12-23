@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .component{
+            width: 50%;
+            width: 50px;
+            margin-bottom: 20px;
+            background-color: #eee;
+            display: none;
+        }
+    </style>
+</head>
+<script src="./js/plugins/jquery.js"></script>
+<script src="./js/plugins/jquery-ui.min.js"></script>
+<script src="./js/plugins/jquery.fullPage.js"></script>
+<body>
+    <div id="h5">
+        <div class="page section" id="page-1">
+            <div class="component log">logo</div>
+            <div class="component slogan">slogan</div>
+        </div>
+        <div class="page section" id="page-2">
+            <div class="component desc">desc</div>
+        </div>
+        <div class="page section" id="page-3">
+            <div class="component bar">bar</div>
+        </div>
+    </div>
+</body>
+<script>
+    $(function(){
+        $('#h5').fullpage({
+            'sectionsColor': ['#254875','#00FF00','#254587','#695684'],
+            onLeave: function(index, nextIndex, direction){
+                $('#h5').find('.page').eq(index-1).trigger('onLeave')
+            },
+            afterLoad: function(anchorLink, index){
+                $('#h5').find('.page').eq(index-1).trigger('onLoad');
+            }
+        });
+        $('.page').on('onLeave', function(){
+            console.log($(this).attr('id'), '===>', 'onLeave')
+            //将此页面下所有组件都作离场动画
+            $(this).find('.component').trigger('onLeave');
+        });
+        $('.page').on('onLoad', function(){
+            console.log($(this).attr('id'), '===>', 'onLoad')
+            //将此页面下所有组件都作入场动画
+            $(this).find('.component').trigger('onLoad');
+        });
+        //入场动画
+        $('.component').on('onLoad', function(){
+            $(this).fadeIn();
+            //阻止向上传播
+            return false;
+        });
+        //出场动画
+        $('.component').on('onLeave', function(){
+            $(this).fadeOut();
+            //阻止向上传播
+            return false;
+        })
+    });
+</script>
+</html>
