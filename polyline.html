@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/H5ComponentBase.css">
+    <link rel="stylesheet" href="css/polyline.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            font-size: 12px;
+        }
+        .iphone{
+            width: 340px;
+            height: 540px;
+            background-color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -270px 0 0 -170px;
+        }
+    </style>
+</head>
+<body>
+    <div class="iphone"></div>
+</body>
+<script src="js/plugins/jquery.js"></script>
+<script src="js/H5ComponentBase.js"></script>
+<script src="js/polyline.js"></script>
+<script>
+    var cfg = {
+        type: 'polyline',
+        width: 530,
+        height: 400,
+        data: [
+            ['A项',.4,'green'],
+            ['B项',.2,'yellow',0, '-60%'],
+            ['C项',.1,'red',0,'120%']
+        ],
+        css: {
+            bottom: '40%',
+            opacity: 0,
+        },
+        animateIn: {bottom: 80, opacity: 1},
+        animateOut: {bottom: 0, opacity: 0},
+        center: true,
+    }
+    var h5 = new H5ComponentPolyline('myName', cfg)
+    $('.iphone').append(h5);
+
+    var leave = true;
+    $('body').click(function(){
+        leave = !leave;
+        $('.h5_component').trigger(leave ? 'onLeave':'onLoad');
+    })
+</script>
+</html>
