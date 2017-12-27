@@ -37,16 +37,18 @@
         width: 530,
         height: 400,
         data: [
-            ['A项',.4,'green'],
-            ['B项',.2,'yellow',0, '-60%'],
-            ['C项',.1,'red',0,'120%']
+            ['A项',.4,'#ff7676'],
+            ['B项',.1],
+            ['C项',.2],
+            ['PHP',.05],
+            ['jQuery',.35]
         ],
         css: {
             bottom: '40%',
-            opacity: 0,
+            opacity: 1,
         },
-        animateIn: {bottom: 80, opacity: 1},
-        animateOut: {bottom: 0, opacity: 0},
+//        animateIn: {bottom: 80, opacity: 1},
+//        animateOut: {bottom: 0, opacity: 0},
         center: true,
     }
     var h5 = new H5ComponentPolyline('myName', cfg)
