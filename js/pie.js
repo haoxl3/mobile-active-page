@@ -37,7 +37,7 @@ var H5ComponentPie = function(name, cfg){
     $(cns).css('zIndex',2);
     component.append(cns);
 
-    var colors = ['red','green','blue','drakred','orange'];
+    var colors = ['red','green','blue','#f00','drakred','orange'];
     var sAngel = 1.5 * Math.PI;//设置开始角度在12点位置
     var eAngel = 0;//结束角度
     var aAngel = Math.PI*2;//100%的圆的结束角度
@@ -58,6 +58,34 @@ var H5ComponentPie = function(name, cfg){
         ctx.stroke();
         // 然后让起始角度变为结束角度
         sAngel = eAngel;
+        //加入所有的项目文本及百分比
+        var text = $('<div class="text"></div>');
+        text.text(cfg.data[i][0]);
+        var per = $('<div class="per"></div>');
+        per.text(cfg.data[i][1]*100 + '%');
+        text.append(per);
+
+        var x = r + Math.sin(.5*Math.PI - sAngel) * r;
+        var y = r + Math.cos(.5*Math.PI - sAngel) * r;
+        text.css('left',x/2);
+        text.css('top',y/2);
+        //圆右侧
+        if(x > w/2){
+            text.css('left',x/2);
+        }else{
+            text.css('right',(w-x)/2);
+        }
+        if(y > h/2){
+            text.css('top',y/2);
+        }else{
+            text.css('bottom',(h-y)/2);
+        }
+        if(cfg.data[i][2]){
+            text.css('color',cfg.data[i][2]);
+        }
+        //开始时文字不可见,等动画完成后再显示文字
+        text.css('opacity',0);
+        component.append(text);
     }
 
     // 加入一个蒙板层
@@ -81,12 +109,18 @@ var H5ComponentPie = function(name, cfg){
         // true为逆向画圆
         if(per <=0){
             ctx.arc(r, r, r, 0, 2*Math.PI);
+            component.find('.text').css('opacity', 0);
         }else{
             ctx.arc(r, r, r, sAngel, sAngel+2*Math.PI*per, true);
         }
 
         ctx.fill();
         ctx.stroke();
+
+        //文字显示
+        if(per >= 1){
+            component.find('.text').css('opacity', 1);
+        }
     }
 
     //雷达图生长动画
