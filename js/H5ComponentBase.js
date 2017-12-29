@@ -17,6 +17,11 @@ var H5ComponentBase = function(name, cfg ) {
             left: '50%'
         })
     }
+
+    //添加点击事件
+    if(typeof cfg.onclick === 'function'){
+        component.on('click', cfg.onclick);
+    }
     component.on('onLoad', function(){
         setTimeout(function(){
             component.addClass(cls + '_load').removeClass(cls + '_leave');

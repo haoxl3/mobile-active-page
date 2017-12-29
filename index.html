@@ -57,6 +57,15 @@
         font-size: 20px;
         color: #fff;
     }
+    .h5_component_name_back{
+        top: 30px;
+        -webkit-animation: back 2s infinite 2s;
+    }
+    @-webkit-keyframes back {
+        50%{
+            top: 20px;
+        }
+    }
 </style>
 <script>
     $(function(){
@@ -147,7 +156,45 @@
                     animateOut:{opacity: 0,bottom:0},
                     delay: 500
                 })
-            .loader(2);
+                .addPage('tail')
+                .addComponent('logo',{
+                    center: true,
+                    width: 359,
+                    height: 129,
+                    bg: 'img/tail_logo.png',
+                    css:{top:240,opacity:0},
+                    animateIn:{opacity:1,top:210},
+                    animateOut:{opacity:0,top:240}
+                })
+                .addComponent('slogan',{
+                    center: true,
+                    width: 314,
+                    height: 46,
+                    bg: 'img/tail_slogan.png',
+                    css:{top:280, opacity:0},
+                    animateIn: {opacity:1,left:'50%'},
+                    animateOut: {opacity:0, left:'0%'},
+                    delay: 500
+                })
+                .addComponent('share', {
+                    width: 128,
+                    height: 120,
+                    bg:'img/tail_share.png',
+                    css: {opacity:0, top: 110,right:110},
+                    animateIn:{opacity: 1, top: 10,right: 10},
+                    animateOut: {opacity: 0, top: 110, right: 110},
+                    delay: 1000
+                })
+                .addComponent('back', {
+                    width: 52,
+                    height: 50,
+                    bg: 'img/tail_back.png',
+                    center: true,
+                    onclick: function(){
+                        $.fn.fullpage.moveTo(1)
+                    }
+                })
+            .loader(3);
     });
 </script>
 </body>
