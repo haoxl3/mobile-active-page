@@ -45,6 +45,9 @@ var H5 = function() {
             case 'polyline':
                 component = new H5ComponentPolyline(name, cfg)
                 break;
+            case 'pie':
+                component = new H5ComponentPie(name, cfg)
+                break;
             default: 
 
         }

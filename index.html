@@ -166,6 +166,34 @@
                     })
                     .addPage()
                     .addComponent('caption', {text: '移动开发课程资源'})//pie
+                    .addComponent('pie', {
+                        type: 'pie',
+                        width: 300,
+                        height: 300,
+                        data: [
+                            ['JavaScript',.4,'#ff7676'],
+                            ['HTML/CSS',.2],
+                            ['CSS3',.05],
+                            ['HTML5',.2],
+                            ['jQuery',.15]
+                        ],
+                        css: {
+                            top: 200
+                        },
+                        center: true
+                    })
+                    .addComponent('msg',{
+                        text: '移动开发课程占到40%',
+                        css: {
+                            opacity: 0,
+                            bottom: 120,
+                            textAlign: 'center',
+                            width: '100%',
+                            color: '#ff7676'
+                        },
+                        animateIn: {opacity: 1},
+                        animateOut: {opacity: 0}
+                    })
                     .addPage()
                     .addComponent('caption', {text: '前端开发课程'})//bar
                     .addPage()
