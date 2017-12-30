@@ -196,12 +196,93 @@
                     })
                     .addPage()
                     .addComponent('caption', {text: '前端开发课程'})//bar
+                    .addComponent('bar', {
+                        type: 'bar',
+                        width: 530,
+                        height: 600,
+                        data: [
+                            ['JavaScript',.4,'#ff7676'],
+                            ['HTML/CSS',.2],
+                            ['CSS3',.4],
+                            ['HTML5',.5],
+                            ['jQuery',.32],
+                            ['Bootstrap',.1],
+                            ['VUE',.09]
+                        ],
+                        css: {
+                            top: 100,
+                            opacity: 0
+                        },
+                        animateIn: { opacity: 1, top: 200},
+                        animateOut: {opacity: 0, top: 100},
+                        center: true,
+                    })
+                    .addComponent('msg',{
+                        text: '移动开发课程占到40%',
+                        css: {
+                            opacity: 0,
+                            bottom: 120,
+                            textAlign: 'center',
+                            width: '100%',
+                            color: '#ff7676'
+                        },
+                        animateIn: {opacity: 1},
+                        animateOut: {opacity: 0}
+                    })
                     .addPage()
                     .addComponent('caption', {text: '后端开发课程'})//radar
+                    .addComponent('radar', {
+                        type: 'radar',
+                        width: 400,
+                        height: 400,
+                        data: [
+                            ['JavaScript',.8,'#ff7676'],
+                            ['HTML/CSS',.7],
+                            ['CSS3',.4],
+                            ['HTML5',.5],
+                            ['jQuery',.6]
+                        ],
+                        css: {
+                            top: 100,
+                            opacity: 0
+                        },
+                        animateIn: { opacity: 1, top: 200},
+                        animateOut: {opacity: 0, top: 100},
+                        center: true
+                    })
+                    .addComponent('msg',{
+                        text: '移动开发课程占到40%',
+                        css: {
+                            opacity: 0,
+                            bottom: 120,
+                            textAlign: 'center',
+                            width: '100%',
+                            color: '#ff7676'
+                        },
+                        animateIn: {opacity: 1},
+                        animateOut: {opacity: 0}
+                    })
                     .addPage()
                     .addComponent('caption', {text: '课程报名人数过万'})//ring
                     .addPage()
                     .addComponent('caption', {text: '课程难度分布'})//point
+                    .addComponent('point', {
+                        type: 'point',
+                        width: 300,
+                        height: 300,
+                        data: [
+                            ['中级',.4,'#ffa3a4',0, '-60%'],
+                            ['初级',.2,'#99c1ff','50%','-120%'],
+                            ['高级',.3,'#ff7676']
+                        ],
+                        css: {
+                            bottom: '20%',
+                            opacity: 0,
+                        },
+                        animateIn: {bottom: 80, opacity: 1},
+                        animateOut: {bottom: 0, opacity: 0},
+                        center: true
+                    })
                     .addPage('tail')
                 .addComponent('caption',{text:'核心理念'})
                 .addComponent('text',{
@@ -288,7 +369,7 @@
                         $.fn.fullpage.moveTo(1)
                     }
                 })
-            .loader(3);
+            .loader(5);
     });
 </script>
 </body>
