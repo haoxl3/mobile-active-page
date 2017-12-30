@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="css/H5.css">
+    <link rel="stylesheet" href="css/H5_loading.css">
 </head>
 <body>
+<div class="loading">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+    <div id="rate">0%</div>
+</div>
+
 <script src="js/plugins/jquery.js"></script>
 <script src="js/plugins/jquery-ui.min.js"></script>
 <script src="js/plugins/jquery.fullPage.js"></script>
@@ -21,7 +29,7 @@
 </script>
 <!--H5对象：进行内容管理-->
 <script src="js/H5.js"></script>
-<link rel="stylesheet" href="css/H5.css">
+<script src="js/H5_loading.js"></script>
 <!--页面逻辑样式-->
 <style>
     body{
@@ -369,7 +377,7 @@
                         $.fn.fullpage.moveTo(1)
                     }
                 })
-            .loader(5);
+//            .loader(5);
     });
 </script>
 </body>

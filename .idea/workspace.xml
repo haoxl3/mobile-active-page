@@ -21,37 +21,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35495496">
-              <caret line="286" column="54" selection-start-line="286" selection-start-column="54" selection-end-line="286" selection-end-column="54" />
+            <state vertical-scroll-proportion="-4.551724">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
               <folding>
-                <element signature="e#2119#2334#0" expanded="false" />
-                <element signature="e#2363#2449#0" expanded="false" />
-                <element signature="e#2479#2566#0" expanded="false" />
-                <element signature="e#2690#2965#0" expanded="false" />
-                <element signature="e#3007#3363#0" expanded="false" />
-                <element signature="e#3412#3758#0" expanded="false" />
-                <element signature="e#3808#4158#0" expanded="false" />
-                <element signature="e#4308#4971#0" expanded="false" />
-                <element signature="e#5013#5452#0" expanded="false" />
-                <element signature="e#5596#6149#0" expanded="false" />
-                <element signature="e#6191#6633#0" expanded="false" />
-                <element signature="e#6775#7575#0" expanded="false" />
-                <element signature="e#6917#7259#0" expanded="false" />
-                <element signature="e#7617#8059#0" expanded="false" />
-                <element signature="e#8205#8918#0" expanded="false" />
-                <element signature="e#8960#9402#0" expanded="false" />
-                <element signature="e#9650#10314#0" expanded="false" />
-                <element signature="e#10445#10921#0" expanded="false" />
-                <element signature="e#10968#11675#0" expanded="false" />
-                <element signature="e#11716#12136#0" expanded="false" />
-                <element signature="e#12208#12518#0" expanded="false" />
-                <element signature="e#12559#12911#0" expanded="false" />
-                <element signature="e#12952#13302#0" expanded="false" />
-                <element signature="e#13342#13614#0" expanded="false" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#2354#2569#0" expanded="false" />
+                <element signature="e#2598#2684#0" expanded="false" />
+                <element signature="e#2714#2801#0" expanded="false" />
+                <element signature="e#2925#3200#0" expanded="false" />
+                <element signature="e#3242#3598#0" expanded="false" />
+                <element signature="e#3647#3993#0" expanded="false" />
+                <element signature="e#4543#5206#0" expanded="false" />
+                <element signature="e#5831#6384#0" expanded="false" />
+                <element signature="e#7010#7810#0" expanded="false" />
+                <element signature="e#7152#7494#0" expanded="false" />
+                <element signature="e#8440#9153#0" expanded="false" />
+                <element signature="e#9885#10549#0" expanded="false" />
+                <element signature="e#10680#11156#0" expanded="false" />
+                <element signature="e#11203#11910#0" expanded="false" />
+                <element signature="e#12443#12753#0" expanded="false" />
+                <element signature="e#12794#13146#0" expanded="false" />
+                <element signature="e#13187#13537#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="H5_loading.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/H5_loading.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44020355">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,16 +65,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-9.862069">
               <caret line="49" column="21" selection-start-line="35" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="point.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/point.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -102,8 +96,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -129,8 +123,10 @@
         <option value="$PROJECT_DIR$/css/ring.css" />
         <option value="$PROJECT_DIR$/js/H5ComponentBase.js" />
         <option value="$PROJECT_DIR$/js/H5.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/point.css" />
+        <option value="$PROJECT_DIR$/js/H5_loading.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/H5_loading.css" />
       </list>
     </option>
   </component>
@@ -142,10 +138,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="392" />
+    <option name="y" value="127" />
+    <option name="width" value="752" />
+    <option name="height" value="553" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -338,10 +334,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="392" y="127" width="752" height="553" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25210086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56162465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -374,7 +370,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -383,30 +381,24 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2119#2334#0" expanded="false" />
-            <element signature="e#2363#2449#0" expanded="false" />
-            <element signature="e#2479#2566#0" expanded="false" />
-            <element signature="e#2690#2965#0" expanded="false" />
-            <element signature="e#3007#3363#0" expanded="false" />
-            <element signature="e#3412#3758#0" expanded="false" />
-            <element signature="e#3808#4158#0" expanded="false" />
-            <element signature="e#4308#4971#0" expanded="false" />
-            <element signature="e#5013#5452#0" expanded="false" />
-            <element signature="e#5596#6149#0" expanded="false" />
-            <element signature="e#6191#6633#0" expanded="false" />
-            <element signature="e#6775#7575#0" expanded="false" />
-            <element signature="e#6917#7259#0" expanded="false" />
-            <element signature="e#7617#8059#0" expanded="false" />
-            <element signature="e#8205#8918#0" expanded="false" />
-            <element signature="e#8960#9402#0" expanded="false" />
-            <element signature="e#9650#10314#0" expanded="false" />
-            <element signature="e#10445#10921#0" expanded="false" />
-            <element signature="e#10968#11675#0" expanded="false" />
-            <element signature="e#11716#12136#0" expanded="false" />
-            <element signature="e#12208#12518#0" expanded="false" />
-            <element signature="e#12559#12911#0" expanded="false" />
-            <element signature="e#12952#13302#0" expanded="false" />
-            <element signature="e#13342#13614#0" expanded="false" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2354#2569#0" expanded="false" />
+            <element signature="e#2598#2684#0" expanded="false" />
+            <element signature="e#2714#2801#0" expanded="false" />
+            <element signature="e#2925#3200#0" expanded="false" />
+            <element signature="e#3242#3598#0" expanded="false" />
+            <element signature="e#3647#3993#0" expanded="false" />
+            <element signature="e#4543#5206#0" expanded="false" />
+            <element signature="e#5831#6384#0" expanded="false" />
+            <element signature="e#7010#7810#0" expanded="false" />
+            <element signature="e#7152#7494#0" expanded="false" />
+            <element signature="e#8440#9153#0" expanded="false" />
+            <element signature="e#9885#10549#0" expanded="false" />
+            <element signature="e#10680#11156#0" expanded="false" />
+            <element signature="e#11203#11910#0" expanded="false" />
+            <element signature="e#12443#12753#0" expanded="false" />
+            <element signature="e#12794#13146#0" expanded="false" />
+            <element signature="e#13187#13537#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -640,6 +632,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/H5_loading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/point.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05821918">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/point.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.862069">
@@ -648,44 +656,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/point.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="-4.551724">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2354#2569#0" expanded="false" />
+            <element signature="e#2598#2684#0" expanded="false" />
+            <element signature="e#2714#2801#0" expanded="false" />
+            <element signature="e#2925#3200#0" expanded="false" />
+            <element signature="e#3242#3598#0" expanded="false" />
+            <element signature="e#3647#3993#0" expanded="false" />
+            <element signature="e#4543#5206#0" expanded="false" />
+            <element signature="e#5831#6384#0" expanded="false" />
+            <element signature="e#7010#7810#0" expanded="false" />
+            <element signature="e#7152#7494#0" expanded="false" />
+            <element signature="e#8440#9153#0" expanded="false" />
+            <element signature="e#9885#10549#0" expanded="false" />
+            <element signature="e#10680#11156#0" expanded="false" />
+            <element signature="e#11203#11910#0" expanded="false" />
+            <element signature="e#12443#12753#0" expanded="false" />
+            <element signature="e#12794#13146#0" expanded="false" />
+            <element signature="e#13187#13537#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/H5_loading.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35495496">
-          <caret line="286" column="54" selection-start-line="286" selection-start-column="54" selection-end-line="286" selection-end-column="54" />
-          <folding>
-            <element signature="e#2119#2334#0" expanded="false" />
-            <element signature="e#2363#2449#0" expanded="false" />
-            <element signature="e#2479#2566#0" expanded="false" />
-            <element signature="e#2690#2965#0" expanded="false" />
-            <element signature="e#3007#3363#0" expanded="false" />
-            <element signature="e#3412#3758#0" expanded="false" />
-            <element signature="e#3808#4158#0" expanded="false" />
-            <element signature="e#4308#4971#0" expanded="false" />
-            <element signature="e#5013#5452#0" expanded="false" />
-            <element signature="e#5596#6149#0" expanded="false" />
-            <element signature="e#6191#6633#0" expanded="false" />
-            <element signature="e#6775#7575#0" expanded="false" />
-            <element signature="e#6917#7259#0" expanded="false" />
-            <element signature="e#7617#8059#0" expanded="false" />
-            <element signature="e#8205#8918#0" expanded="false" />
-            <element signature="e#8960#9402#0" expanded="false" />
-            <element signature="e#9650#10314#0" expanded="false" />
-            <element signature="e#10445#10921#0" expanded="false" />
-            <element signature="e#10968#11675#0" expanded="false" />
-            <element signature="e#11716#12136#0" expanded="false" />
-            <element signature="e#12208#12518#0" expanded="false" />
-            <element signature="e#12559#12911#0" expanded="false" />
-            <element signature="e#12952#13302#0" expanded="false" />
-            <element signature="e#13342#13614#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.44020355">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
