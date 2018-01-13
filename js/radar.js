@@ -4,12 +4,12 @@
 var H5ComponentRadar = function(name, cfg){
     var component = new H5ComponentBase(name, cfg)
 
-    // »æÖÆÍø¸ñÏß-±³¾°
+    // ç»˜åˆ¶ç½‘æ ¼çº¿-èƒŒæ™¯
     var w = cfg.width;
     var h = cfg.height;
     var step = cfg.data.length;
 
-    // ¼ÓÈëÒ»¸ö»­²¼£¨Íø¸ñÏß±³¾°£©
+    // åŠ å…¥ä¸€ä¸ªç”»å¸ƒï¼ˆç½‘æ ¼çº¿èƒŒæ™¯ï¼‰
     var cns = document.createElement('canvas');
     var ctx = cns.getContext('2d');
     cns.width = ctx.width = w;
@@ -19,14 +19,14 @@ var H5ComponentRadar = function(name, cfg){
     var r = w/2;
 
     /*
-    * ¼ÆËã¶à±ßĞÎµÄ¶¥µã×ø±ê
-    * ÒÑÖª£ºÔ²ĞÄ×ø±ê£¨a,b£©¡¢°ë¾¶r¡¢½Ç¶Èdeg¡¢¸öÊıstep
-    * »¡¶Èrad = (2*Math.PI / 360)*(360 / step) * i
-    * x = a + Math.sin(rad)*r;
-    * y = b + Math.cos(rad)*r;
-    * */
-    //»æÖÆÍø¸ñ±³¾°£¨·ÖÃæ»æÖÆ£¬·ÖÎª10·İ£©
-    var isBlue = false;//ÃæÑÕÉ«£¬Á½ÖÖÑÕÉ«ÇĞ»»
+     * è®¡ç®—å¤šè¾¹å½¢çš„é¡¶ç‚¹åæ ‡
+     * å·²çŸ¥ï¼šåœ†å¿ƒåæ ‡ï¼ˆa,bï¼‰ã€åŠå¾„rã€è§’åº¦degã€ä¸ªæ•°step
+     * å¼§åº¦rad = (2*Math.PI / 360)*(360 / step) * i
+     * x = a + Math.sin(rad)*r;
+     * y = b + Math.cos(rad)*r;
+     * */
+    //ç»˜åˆ¶ç½‘æ ¼èƒŒæ™¯ï¼ˆåˆ†é¢ç»˜åˆ¶ï¼Œåˆ†ä¸º10ä»½ï¼‰
+    var isBlue = false;//é¢é¢œè‰²ï¼Œä¸¤ç§é¢œè‰²åˆ‡æ¢
     for(var s = 10;s>0; s--){
         ctx.beginPath();
         for(var i=0;i<step;i++){
@@ -39,20 +39,20 @@ var H5ComponentRadar = function(name, cfg){
         ctx.fillStyle = (isBlue = !isBlue) ? '#99c0ff':'#f1f9ff';
         ctx.fill();
     }
-    //»æÖÆÉ¡¹Ç
+    //ç»˜åˆ¶ä¼éª¨
     for(var i=0;i<step;i++){
         var rad = (2*Math.PI / 360)*(360 / step) * i
         var x = r + Math.sin(rad)*r;
         var y = r + Math.cos(rad)*r;
         ctx.moveTo(r,r);
         ctx.lineTo(x,y);
-        // Êä³öÏîÄ¿ÎÄ×Ö
+        // è¾“å‡ºé¡¹ç›®æ–‡å­—
         var text = $('<div class="text"></div>');
         text.text(cfg.data[i][0]);
-        //ÎÄ×Ö°¤¸öÑÓ³Ù
+        //æ–‡å­—æŒ¨ä¸ªå»¶è¿Ÿ
         text.css('transition','all .5s ' + i *.1 + 's');
 
-        //ÎÄ×ÖÎ»ÖÃ
+        //æ–‡å­—ä½ç½®
         if(x > w/2){
             text.css('left',x/2+5);
         }else{
@@ -66,7 +66,7 @@ var H5ComponentRadar = function(name, cfg){
         if(cfg.data[i][2]){
             text.css('color',cfg.data[i][2]);
         }
-        text.css('opacity',0);//ÎÄ×ÖÏÈÒş²Ø
+        text.css('opacity',0);//æ–‡å­—å…ˆéšè—
         component.append(text);
     }
     ctx.strokeStyle = '#e0e0e0';
@@ -74,7 +74,7 @@ var H5ComponentRadar = function(name, cfg){
 
 
 
-    //Êı¾İ²ã¿ª·¢£¬¼ÓÈëÒ»¸ö»­²¼
+    //æ•°æ®å±‚å¼€å‘ï¼ŒåŠ å…¥ä¸€ä¸ªç”»å¸ƒ
     var cns = document.createElement('canvas');
     var ctx = cns.getContext('2d');
     cns.width = ctx.width = w;
@@ -84,7 +84,7 @@ var H5ComponentRadar = function(name, cfg){
      * */
     cns.strokeStyle = "#f00000";
     var draw = function(per) {
-        //µ±Í¼¼ÓÔØÍêºóÔÙÏÔÊ¾ÎÄ×Ö
+        //å½“å›¾åŠ è½½å®Œåå†æ˜¾ç¤ºæ–‡å­—
         if(per >= 1){
             component.find('.text').css('opacity',1);
         }
@@ -92,7 +92,7 @@ var H5ComponentRadar = function(name, cfg){
             component.find('.text').css('opacity',0);
         }
         ctx.clearRect(0,0,w,h);
-        //Êä³öÊı¾İµÄÕÛÏß
+        //è¾“å‡ºæ•°æ®çš„æŠ˜çº¿
         for(var i=0;i<step;i++){
             var rad = (2*Math.PI / 360)*(360 / step) * i
             var rate = cfg.data[i][1]*per;
@@ -103,7 +103,7 @@ var H5ComponentRadar = function(name, cfg){
         ctx.closePath();
         ctx.stroke();
 
-        //Êä³öÊı¾İµÄµã
+        //è¾“å‡ºæ•°æ®çš„ç‚¹
         ctx.fillStyle = '#ff7676';
         for(var i=0;i<step;i++){
             var rad = (2*Math.PI / 360)*(360 / step) * i
@@ -117,24 +117,24 @@ var H5ComponentRadar = function(name, cfg){
         }
     }
 
-    //À×´ïÍ¼Éú³¤¶¯»­
+    //é›·è¾¾å›¾ç”Ÿé•¿åŠ¨ç”»
     component.on('onLoad', function(){
         var s = 0;
         for(i=0;i<100;i++){
             setTimeout(function(){
                 s+=.01;
                 draw(s);
-            },i*10 + 500);//Ê±¼äµİÔö,500ÎªÍø¸ñÏßÈë³¡Ê±¼ä
+            },i*10 + 500);//æ—¶é—´é€’å¢,500ä¸ºç½‘æ ¼çº¿å…¥åœºæ—¶é—´
         }
     });
-    //À×´ïÍ¼ÍË³¡¶¯»­
+    //é›·è¾¾å›¾é€€åœºåŠ¨ç”»
     component.on('onLeave', function(){
         var s = 1;
         for(i=0;i<100;i++){
             setTimeout(function(){
                 s -=.01;
                 draw(s);
-            },i*10);//Ê±¼äµİÔö
+            },i*10);//æ—¶é—´é€’å¢
         }
     });
 

@@ -21,71 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.551724">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.49147728">
+              <caret line="379" column="14" selection-start-line="379" selection-start-column="14" selection-end-line="379" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#2354#2569#0" expanded="false" />
                 <element signature="e#2598#2684#0" expanded="false" />
                 <element signature="e#2714#2801#0" expanded="false" />
-                <element signature="e#2925#3200#0" expanded="false" />
                 <element signature="e#3242#3598#0" expanded="false" />
                 <element signature="e#3647#3993#0" expanded="false" />
-                <element signature="e#4543#5206#0" expanded="false" />
-                <element signature="e#5831#6384#0" expanded="false" />
-                <element signature="e#7010#7810#0" expanded="false" />
                 <element signature="e#7152#7494#0" expanded="false" />
-                <element signature="e#8440#9153#0" expanded="false" />
-                <element signature="e#9885#10549#0" expanded="false" />
-                <element signature="e#10680#11156#0" expanded="false" />
-                <element signature="e#11203#11910#0" expanded="false" />
-                <element signature="e#12443#12753#0" expanded="false" />
-                <element signature="e#12794#13146#0" expanded="false" />
-                <element signature="e#13187#13537#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="H5_loading.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/H5_loading.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44020355">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="point.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/point.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.862069">
-              <caret line="49" column="21" selection-start-line="35" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="H5.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/H5.js">
+      <file leaf-file-name="H5_loading.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/H5_loading.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3448277">
-              <caret line="53" column="21" selection-start-line="35" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
-              <folding />
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="16" />
+              <folding>
+                <element signature="e#326#583#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,26 +68,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/bar.js" />
         <option value="$PROJECT_DIR$/css/bar.css" />
         <option value="$PROJECT_DIR$/bar.html" />
         <option value="$PROJECT_DIR$/css/polyline.css" />
         <option value="$PROJECT_DIR$/js/polyline.js" />
         <option value="$PROJECT_DIR$/polyline.html" />
         <option value="$PROJECT_DIR$/css/radar.css" />
-        <option value="$PROJECT_DIR$/js/radar.js" />
         <option value="$PROJECT_DIR$/radar.html" />
         <option value="$PROJECT_DIR$/pie.html" />
         <option value="$PROJECT_DIR$/css/pie.css" />
-        <option value="$PROJECT_DIR$/js/pie.js" />
         <option value="$PROJECT_DIR$/js/ring.js" />
         <option value="$PROJECT_DIR$/css/ring.css" />
         <option value="$PROJECT_DIR$/js/H5ComponentBase.js" />
-        <option value="$PROJECT_DIR$/js/H5.js" />
         <option value="$PROJECT_DIR$/css/point.css" />
-        <option value="$PROJECT_DIR$/js/H5_loading.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/H5_loading.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/bar.js" />
+        <option value="$PROJECT_DIR$/js/pie.js" />
+        <option value="$PROJECT_DIR$/js/radar.js" />
+        <option value="$PROJECT_DIR$/js/H5_loading.js" />
+        <option value="$PROJECT_DIR$/js/H5.js" />
       </list>
     </option>
   </component>
@@ -138,10 +99,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="392" />
-    <option name="y" value="127" />
-    <option name="width" value="752" />
-    <option name="height" value="553" />
+    <option name="x" value="192" />
+    <option name="y" value="111" />
+    <option name="width" value="1008" />
+    <option name="height" value="571" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -172,6 +133,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -215,13 +177,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,24 +295,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="392" y="127" width="752" height="553" extended-state="0" />
-    <editor active="true" />
+    <frame x="192" y="111" width="1008" height="571" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56162465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29175258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -379,26 +340,65 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="379" column="149" selection-start-line="379" selection-start-column="149" selection-end-line="379" selection-end-column="149" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2354#2569#0" expanded="false" />
+            <element signature="e#2598#2684#0" expanded="false" />
+            <element signature="e#2714#2801#0" expanded="false" />
+            <element signature="e#3242#3598#0" expanded="false" />
+            <element signature="e#3647#3993#0" expanded="false" />
+            <element signature="e#7152#7494#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/H5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/H5_loading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#326#583#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="21" selection-start-line="35" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2354#2569#0" expanded="false" />
             <element signature="e#2598#2684#0" expanded="false" />
             <element signature="e#2714#2801#0" expanded="false" />
-            <element signature="e#2925#3200#0" expanded="false" />
             <element signature="e#3242#3598#0" expanded="false" />
             <element signature="e#3647#3993#0" expanded="false" />
-            <element signature="e#4543#5206#0" expanded="false" />
-            <element signature="e#5831#6384#0" expanded="false" />
-            <element signature="e#7010#7810#0" expanded="false" />
             <element signature="e#7152#7494#0" expanded="false" />
-            <element signature="e#8440#9153#0" expanded="false" />
-            <element signature="e#9885#10549#0" expanded="false" />
-            <element signature="e#10680#11156#0" expanded="false" />
-            <element signature="e#11203#11910#0" expanded="false" />
-            <element signature="e#12443#12753#0" expanded="false" />
-            <element signature="e#12794#13146#0" expanded="false" />
-            <element signature="e#13187#13537#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -498,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27789935">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6367615">
@@ -516,13 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33834586">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/polyline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -544,20 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67901236">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/pie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23045267">
-          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ring.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -584,14 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/H5ComponentBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.103448">
@@ -602,16 +566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3448277">
+        <state vertical-scroll-proportion="0.0">
           <caret line="53" column="21" selection-start-line="35" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/radar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60273975">
-          <caret line="104" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -624,10 +580,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/H5.js">
+    <entry file="file://$PROJECT_DIR$/css/point.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05821918">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/H5_loading.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5088235">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/point.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/H5ComponentBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="147" column="1" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/point.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/polyline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/radar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/H5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.9805353">
+          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -635,59 +669,26 @@
     <entry file="file://$PROJECT_DIR$/js/H5_loading.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/point.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05821918">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/point.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.862069">
-          <caret line="49" column="21" selection-start-line="35" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
-          <folding />
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="e#326#583#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.551724">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.49147728">
+          <caret line="379" column="14" selection-start-line="379" selection-start-column="14" selection-end-line="379" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2354#2569#0" expanded="false" />
             <element signature="e#2598#2684#0" expanded="false" />
             <element signature="e#2714#2801#0" expanded="false" />
-            <element signature="e#2925#3200#0" expanded="false" />
             <element signature="e#3242#3598#0" expanded="false" />
             <element signature="e#3647#3993#0" expanded="false" />
-            <element signature="e#4543#5206#0" expanded="false" />
-            <element signature="e#5831#6384#0" expanded="false" />
-            <element signature="e#7010#7810#0" expanded="false" />
             <element signature="e#7152#7494#0" expanded="false" />
-            <element signature="e#8440#9153#0" expanded="false" />
-            <element signature="e#9885#10549#0" expanded="false" />
-            <element signature="e#10680#11156#0" expanded="false" />
-            <element signature="e#11203#11910#0" expanded="false" />
-            <element signature="e#12443#12753#0" expanded="false" />
-            <element signature="e#12794#13146#0" expanded="false" />
-            <element signature="e#13187#13537#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/H5_loading.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44020355">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>

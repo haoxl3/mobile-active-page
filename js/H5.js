@@ -79,5 +79,7 @@ var H5 = function() {
             $.fn.fullpage.moveTo(firstPage)
         }
     }
+    //loading覆盖原有加载方法
+    this.loader = typeof H5_loading == 'function' ? H5_loading : this.loader;
     return this;
 }

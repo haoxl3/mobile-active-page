@@ -7,11 +7,11 @@
 var H5ComponentPie = function(name, cfg){
     var component = new H5ComponentBase(name, cfg)
 
-    // »æÖÆÍø¸ñÏß-±³¾°
+    // ç»˜åˆ¶ç½‘æ ¼çº¿-èƒŒæ™¯
     var w = cfg.width;
     var h = cfg.height;
 
-    // ¼ÓÈëÒ»¸ö»­²¼£¨Íø¸ñÏß±³¾°£©
+    // åŠ å…¥ä¸€ä¸ªç”»å¸ƒï¼ˆç½‘æ ¼çº¿èƒŒæ™¯ï¼‰
     var cns = document.createElement('canvas');
     var ctx = cns.getContext('2d');
     cns.width = ctx.width = w;
@@ -20,7 +20,7 @@ var H5ComponentPie = function(name, cfg){
     $(cns).css('zIndex',1);
     var r = w/2;
 
-    //¼ÓÈëÒ»¸öµ×Í¼²ã
+    //åŠ å…¥ä¸€ä¸ªåº•å›¾å±‚
     ctx.beginPath();
     ctx.fillStyle="#eee";
     ctx.strokeStyle = '#eee';
@@ -29,7 +29,7 @@ var H5ComponentPie = function(name, cfg){
     ctx.fill();
     ctx.stroke();
 
-    //»æÖÆÒ»¸öÊı¾İ²ã
+    //ç»˜åˆ¶ä¸€ä¸ªæ•°æ®å±‚
     var cns = document.createElement('canvas');
     var ctx = cns.getContext('2d');
     cns.width = ctx.width = w;
@@ -38,9 +38,9 @@ var H5ComponentPie = function(name, cfg){
     component.append(cns);
 
     var colors = ['red','green','blue','#a00','orange'];
-    var sAngel = 1.5 * Math.PI;//ÉèÖÃ¿ªÊ¼½Ç¶ÈÔÚ12µãÎ»ÖÃ
-    var eAngel = 0;//½áÊø½Ç¶È
-    var aAngel = Math.PI*2;//100%µÄÔ²µÄ½áÊø½Ç¶È
+    var sAngel = 1.5 * Math.PI;//è®¾ç½®å¼€å§‹è§’åº¦åœ¨12ç‚¹ä½ç½®
+    var eAngel = 0;//ç»“æŸè§’åº¦
+    var aAngel = Math.PI*2;//100%çš„åœ†çš„ç»“æŸè§’åº¦
 
     var step = cfg.data.length;
     for(var i=0;i<step;i++){
@@ -56,9 +56,9 @@ var H5ComponentPie = function(name, cfg){
         ctx.arc(r, r, r, sAngel, eAngel);
         ctx.fill();
         ctx.stroke();
-        // È»ºóÈÃÆğÊ¼½Ç¶È±äÎª½áÊø½Ç¶È
+        // ç„¶åè®©èµ·å§‹è§’åº¦å˜ä¸ºç»“æŸè§’åº¦
         sAngel = eAngel;
-        //¼ÓÈëËùÓĞµÄÏîÄ¿ÎÄ±¾¼°°Ù·Ö±È
+        //åŠ å…¥æ‰€æœ‰çš„é¡¹ç›®æ–‡æœ¬åŠç™¾åˆ†æ¯”
         var text = $('<div class="text"></div>');
         text.text(cfg.data[i][0]);
         var per = $('<div class="per"></div>');
@@ -69,7 +69,7 @@ var H5ComponentPie = function(name, cfg){
         var y = r + Math.cos(1.5*Math.PI - sAngel) * r;
         //text.css('left',x/2);
         //text.css('top',y/2);
-        //Ô²ÓÒ²à
+        //åœ†å³ä¾§
         if(x > w/2){
             text.css('left',x/2);
         }else{
@@ -83,12 +83,12 @@ var H5ComponentPie = function(name, cfg){
         if(cfg.data[i][2]){
             text.css('color',cfg.data[i][2]);
         }
-        //¿ªÊ¼Ê±ÎÄ×Ö²»¿É¼û,µÈ¶¯»­Íê³ÉºóÔÙÏÔÊ¾ÎÄ×Ö
+        //å¼€å§‹æ—¶æ–‡å­—ä¸å¯è§,ç­‰åŠ¨ç”»å®Œæˆåå†æ˜¾ç¤ºæ–‡å­—
         text.css('opacity',0);
         component.append(text);
     }
 
-    // ¼ÓÈëÒ»¸öÃÉ°å²ã
+    // åŠ å…¥ä¸€ä¸ªè’™æ¿å±‚
     var cns = document.createElement('canvas');
     var ctx = cns.getContext('2d');
     cns.width = ctx.width = w;
@@ -106,7 +106,7 @@ var H5ComponentPie = function(name, cfg){
         ctx.clearRect(0,0,w,h);
         ctx.beginPath();
         ctx.moveTo(r,r);
-        // trueÎªÄæÏò»­Ô²
+        // trueä¸ºé€†å‘ç”»åœ†
         if(per <=0){
             ctx.arc(r, r, r, 0, 2*Math.PI);
             component.find('.text').css('opacity', 0);
@@ -117,30 +117,30 @@ var H5ComponentPie = function(name, cfg){
         ctx.fill();
         ctx.stroke();
 
-        //ÎÄ×ÖÏÔÊ¾
+        //æ–‡å­—æ˜¾ç¤º
         if(per >= 1){
             component.find('.text').css('opacity', 1);
         }
     }
 
-    //À×´ïÍ¼Éú³¤¶¯»­
+    //é›·è¾¾å›¾ç”Ÿé•¿åŠ¨ç”»
     component.on('onLoad', function(){
         var s = 0;
         for(i=0;i<100;i++){
             setTimeout(function(){
                 s+=.01;
                 draw(s);
-            },i*10 + 500);//Ê±¼äµİÔö,500ÎªÍø¸ñÏßÈë³¡Ê±¼ä
+            },i*10 + 500);//æ—¶é—´é€’å¢,500ä¸ºç½‘æ ¼çº¿å…¥åœºæ—¶é—´
         }
     });
-    //À×´ïÍ¼ÍË³¡¶¯»­
+    //é›·è¾¾å›¾é€€åœºåŠ¨ç”»
     component.on('onLeave', function(){
         var s = 1;
         for(i=0;i<100;i++){
             setTimeout(function(){
                 s -=.01;
                 draw(s);
-            },i*10);//Ê±¼äµİÔö
+            },i*10);//æ—¶é—´é€’å¢
         }
     });
 

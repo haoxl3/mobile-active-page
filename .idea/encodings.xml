@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/js/H5_loading.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js/bar.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/pie.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/radar.js" charset="UTF-8" />
+  </component>
+</project>
