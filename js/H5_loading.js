@@ -13,9 +13,7 @@ var H5_loading = function(images, firstPage){
             var item = images[s];
             var img = new Image;
             img.onload = function(){
-                img.onload = function(){
-                    window[id].loader();
-                }
+                window[id].loader();
             }
             img.src = item;
         }
